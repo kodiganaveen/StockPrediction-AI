@@ -21,6 +21,7 @@ document.getElementById('ticker-input-form').addEventListener('submit', (e) => {
         label.textContent = 'You must add at least one ticker. A ticker is a 3 letter or more code for a stock. E.g TSLA for Tesla.'
     } 
 })
+// Renders the tickers added by the user to the DOM
 
 function renderTickers() {
     const tickersDiv = document.querySelector('.ticker-choice-display')
